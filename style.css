@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap'); */
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: Lobster;
+}
+.new-add{
+
+}
+.us{
+	
+}
+.us-wrapper{
+	background-color: #ffffff;
+	padding: 2rem;	
+	margin: 4rem;
+}
+.hb-p{
+	color: #111111;
+	font-size: 3rem;
+	font-weight: 300;
+}
+.wrapper{
+	background-color: #ffffff;
+	padding: 2rem;		
+}
+.next-icon{
+	display: grid;
+	place-items: center;
+	margin-top: 2rem;
+}
+.icon-size{
+	margin-top:3rem;
+}
+.icon-size1{
+	width: 8rem;
+}
+.hb-box{
+/* width: 3rem;
+height: 3rem;*/
+}
+.hb-text{
+	color: #111111;
+	font-size: 5rem;
+}
+.body1 {
+	font-size: 10vmin;
+	height: 100vh;
+	/* height: 100%; */
+	width: 100%;
+	background-color: #111111;
+background-image: linear-gradient(43deg, #111111 0%, #111111 80%, #FFCC70 100%);
+	display: grid;
+	place-content: center;
+	align-items: center;
+
+}
+.body2{
+	font-size: 10vmin;
+	height: 100vh;
+	/* height: 100%; */
+	width: 100%;
+	background-color: #111111;
+background-image: linear-gradient(43deg, #111111 0%, #111111 80%, #FFCC70 100%);
+}
+
+  
+  .slider {
+	/* margin:1rem; */
+	/* max-width: 640px; */
+  }
+  
+  .slide_viewer {
+	height: 80vh;
+	overflow: hidden;
+	position: relative;
+  }
+  
+  .slide img{
+	  width: 60vh;
+	  height: 80vh;
+	  object-fit: cover;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+  }
+  
+  .slide_group {
+	height: 100%;
+	position: relative;
+	width: 100%;
+  }
+  
+  .slide {
+	display: none;
+	height: 100%;
+	position: absolute;
+	width: 100%;
+  }
+  
+  .slide:first-child {
+	display: block;
+  }
+  
+  /* .slide:nth-of-type(1) {
+	background: #D7A151;
+  }
+  
+  .slide:nth-of-type(2) {
+	background: #F4E4CD;
+  }
+  
+  .slide:nth-of-type(3) {
+	background: #C75534;
+  }
+  
+  .slide:nth-of-type(4) {
+	background: #D1D1D4;
+  } */
+  
+  .slide_buttons {
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+  }
+  
+  a.slide_btn {
+	color: #474544;
+	font-size: 25px;
+	margin: 0 0.175em;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+  }
+  
+  .slide_btn.active, .slide_btn:hover {
+	color: #428CC6;
+	cursor: pointer;
+  }
+  
+  .directional_nav {
+	height: 340px;
+	margin: 0 auto;
+	max-width: 740px;
+	position: relative;
+	top: -240px;
+  }
+  
+  .previous_btn {
+	bottom: 0;
+	left: 50px;
+	margin: auto;
+	position: absolute;
+	top: 0;
+  }
+  
+  .next_btn {
+	bottom: 0;
+	margin: auto;
+	position: absolute;
+	right: 50px;
+	top: 0;
+  }
+  
+  .previous_btn, .next_btn {
+	cursor: pointer;
+	height: 65px;
+	opacity: 0.5;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+	-ms-transition: opacity 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+	width: 65px;
+  }
+  
+  .previous_btn:hover, .next_btn:hover {
+	opacity: 1;
+  }
+  
+  @media only screen and (max-width: 767px) {
+	.previous_btn {
+	  left: 50px;
+	}
+	.next_btn {
+	  right: 50px;
+	}
+  }
+.s-heart {
+	--heart-color: #FF3366;
+	--text-color: #FF57BB;
+	--stroke-color: #FFF;
+	
+	--radius: .2em;
+	--clr-1: #d50000;
+	--clr-2: #c51162;
+	--clr-3: #aa00ff;
+	--clr-4: #2962ff;
+	--clr-5: #00c853;
+	--clr-6: #ffd600;
+	--clr-7: #5e1583;
+	--clr-8: #495c91;
+	--clr-9: #397c55;
+	--clr-10: #7f7233;
+	
+	height: 8em;
+	width: 8em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-repeat: no-repeat;
+	background-size: 0;
+	background-image: radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 50% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-1 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-3 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-2 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-6 ) 49%,transparent 60% ), 
+	radial-gradient( circle at center, var( --clr-9 ) 40%,transparent 60% ), radial-gradient( circle at center, var( --clr-4 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-8 ) 49%,transparent 60% ), radial-gradient( circle at center, var( --clr-5 ) 49%,transparent 60% );
+	
+	background-position: 50% 50%;
+	will-change: background-position;
+	animation: confetti ease 1.2s infinite 1.7s, glow ease .3s forwards 1.3s;
+}
+
+/* .s-heart::before {
+	content: 'Sarit';
+	display: block;
+	position: absolute;
+	color: var( --text-color );
+	font-size: 1.3em;
+	text-shadow: 
+		0 0 .1em var( --stroke-color ),
+		0 0 .05em var( --stroke-color );
+	z-index: 1;
+	margin-top: .1em;
+	animation: 
+		move-s ease-out 1.5s forwards,
+		change-text 3s ease infinite 2s;
+}
+
+.s-heart::after {
+	content: '';
+	display: block;
+	position: absolute;
+	height: 4em;
+	aspect-ratio: 1;
+	background: #F00;
+	background: radial-gradient(ellipse farthest-corner at right 20% bottom 20%, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left 15% top 15%, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+	
+	--mask:
+		conic-gradient( from 135deg, 
+			#000 25%,
+			transparent 25%
+		) 50% calc( 100% - 1.7em ) / 3em 3em,
+		
+		conic-gradient( from -45deg, 
+			#000 25%,
+			transparent 25%
+		) 50% calc( 100% + 1.3em ) / 3em 3em,
+		
+		radial-gradient( ellipse 50% 50%,
+			#000 98%,
+			transparent 100%
+		) right .14em top 0.45em / 2.15em 2.15em,
+		
+		radial-gradient( ellipse 50% 50%,
+			#000 98%,
+			transparent 100%
+		) left .135em top 0.45em / 2.15em 2.15em;
+	
+	-webkit-mask: var( --mask );
+	-webkit-mask-repeat: no-repeat;
+	
+	mask: var( --mask );
+	mask-repeat: no-repeat;
+	
+	background-repeat: no-repeat;
+	animation: move-heart ease-out 1.5s forwards;
+} */
+
+@keyframes move-s {
+	0% {
+		opacity: 0;
+	}
+	
+	40%, 90% {
+		opacity: 1;
+		transform: translateX( -100% );
+	}
+	
+	100% {
+		transform: translateX( 0 );
+	}
+}
+
+@keyframes move-heart {
+	0%, 40% {
+		opacity: 0;
+	}
+	
+	90% {
+		opacity: 1;
+		transform: translateX( 50% );
+	}
+	
+	100% {
+		transform: translateX( 0 ) scale( 1.5 );
+	}
+}
+
+@keyframes confetti {
+	0% {
+		background-size: calc( 2 * var( --radius ) ) calc( 2 * var( --radius ) );
+		background-position: 64% 39%, 33% 50%, 30% 66%, 54% 46%, 44% 41%, 32% 46%, 49% 66%, 53% 69%, 42% 35%, 68% 39%, 53% 51%, 61% 33%, 47% 54%, 57% 67%, 46% 33%, 50% 61%, 50% 46%, 48% 41%, 61% 68%, 68% 44%, 41% 57%, 35% 45%, 33% 38%, 46% 40%, 55% 43%, 68% 53%, 31% 69%, 61% 66%, 34% 69%, 35% 41%, 32% 42%, 42% 39%, 64% 48%, 55% 63%, 58% 48%, 68% 59%, 57% 62%, 47% 40%, 58% 69%, 58% 48%, 44% 45%, 39% 43%, 40% 52%, 30% 47%, 69% 53%, 39% 55%, 70% 66%, 63% 48%, 60% 38%, 40% 52%;
+	}
+	
+	45% {
+		background-size: calc( 2 * var( --radius ) ) calc( 2 * var( --radius ) );
+	}
+	
+	100% {
+		background-position: 83% 23%, 17% 87%, -3% 65%, 35% 83%, 14% 72%, 82% 95%, 59% 78%, 16% 61%, 51% 62%, 26% 0%, 6% 17%, 106% 78%, 24% 46%, 36% 43%, 28% 19%, 50% 12%, 49% 51%, 79% 19%, 42% 36%, 54% 51%, 68% 101%, 57% 7%, 79% 29%, 28% 90%, 100% 73%, 65% 51%, 22% 81%, 84% 89%, 70% 91%, 18% 22%, -9% 77%, 39% -11%, 89% 3%, 36% 96%, 97% 38%, 94% 83%, 63% 95%, 45% 32%, 62% 115%, 74% 26%, 70% 14%, 79% 55%, 60% 63%, 14% 80%, 40% 101%, 86% 73%, 120% 40%, 27% 0%, 56% 11%, -9% 26%;
+    background-size: 0 0;
+	}
+}
+
+@keyframes glow {
+	100% {
+		/* filter: drop-shadow( 0 0 1em #D1B464 ); */
+	}
+}
+
+@keyframes change-text {
+	0%, 10%, 100% {
+		content: 'Sarit';
+		opacity: 1;
+	}
+	
+	25% {
+		content: 'Sarit';
+		opacity: 0;
+	}
+	
+	26% {
+		content: '19/07';
+		opacity: 0;
+	}
+	
+	50%, 60% {
+		content: '19/07';
+		opacity: 1;
+	}
+	
+	75% {
+		content: '19/07';
+		opacity: 0;
+	}
+	
+	76% {
+		content: 'Sarit';
+		opacity: 0;
+	}
+}
